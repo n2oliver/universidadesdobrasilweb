@@ -1,0 +1,13 @@
+.title-bar {
+  box-sizing: content-box;
+}
+
+.title-bar .navbar-toggler {
+  display: none;
+}
+
+.title-bar img {
+  margin-right: 8px;
+  height: 60px;
+  width: 60px;
+}

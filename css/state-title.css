@@ -1,0 +1,17 @@
+@font-face {
+  font-family: actionman;
+  src: local('action_man.otf');
+}
+
+.state .state-title {
+  padding-top: 10px;
+  font-family: actionman;
+}
+
+.state-big .state-title {
+  font-family: actionman;
+}
+
+.state-title p {
+  margin-bottom: 0rem;
+}

@@ -1,0 +1,12 @@
+.state {
+  height: 120px;
+  background: #f1f2f6;
+  margin: 2px;
+}
+
+.state-big {
+  height: 240px;
+  background: #f1f2f6;
+  margin: 2px;
+  padding: 10px;
+}
