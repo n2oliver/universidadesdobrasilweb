@@ -4,7 +4,7 @@ function loadStates(){
     isBigScreen ? $(".state").remove() : $(".state-big").remove();
     $(".cardview-state").remove();
 
-    for(stateItem in states){
+    for(let stateItem in states){
         createListItem(stateItem)
     }
 }

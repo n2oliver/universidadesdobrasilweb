@@ -1,10 +1,10 @@
-function createListItem(stateItem){
+function createListItem(obj){
     // Create state layout
-    stateItem = {
-        "name": states[stateItem][state.name],
-        "graduated_number": states[stateItem][state.graduated_number],
-        "demography": states[stateItem][state.demography],
-        "initials": states[stateItem][state.initials]
+    let stateItem = {
+        "name": states[obj][state.name],
+        "graduated_number": states[obj][state.graduated_number],
+        "demography": states[obj][state.demography],
+        "initials": states[obj][state.initials]
     }
     document.body.appendChild(
             withAStateDescription(
